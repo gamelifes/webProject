@@ -1,0 +1,18 @@
+@media screen and (max-width: 1205px){
+.notice .notice-open, .nav, .intro{
+		width:960px;
+	}
+	.intro .n-intro{
+		width: 271px;
+	}
+	.intro>.n-intro+.n-intro{
+		margin-left: 73.5px;
+	}
+	.office{
+		width:100%;	
+		
+	}
+	
+}
+
+
