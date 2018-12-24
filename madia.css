@@ -1,18 +1,24 @@
-@media screen and (max-width: 1205px){
-.notice .notice-open, .nav, .intro{
-		width:960px;
-	}
-	.intro .n-intro{
-		width: 271px;
-	}
-	.intro>.n-intro+.n-intro{
-		margin-left: 73.5px;
-	}
-	.office{
-		width:100%;	
-		
-	}
-	
+@media (max-width: 991px){
+body{
+overflow-x:hidden;
+-webkit-overflow-scrolling:touch
 }
+body{
+margin-top:0
+}
+}
+@media (max-width: 1030px){
+}
+@media (max-width: 991px){
+
+@media (max-width: 550px){
+}
+@media (max-width: 414px)
+}
+@media (max-width: 375px){
+}
+@media (max-width: 320px){
+}
+
 
 

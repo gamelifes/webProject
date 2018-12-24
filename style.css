@@ -6,7 +6,7 @@
 html body {
 	width: 100%;
 	height: 100%;
-	overflow: auto;
+	overflow-x: hidden;
 	/*规定当内容溢出元素框时发生的事情 定义溢出元素内容区的内容会如何处理 即提供滚动条*/
 	font: normal 12px/1.4 "Microsoft YaHei", "Arial", "sans-serif";
 }
@@ -37,7 +37,7 @@ html body {
 }
 
 .notice .notice-open {
-	width: 1205px;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -56,7 +56,7 @@ html body {
 
 .notice span i {
 	display: inline-block;
-	width: 9px;
+	width: 0.5em;
 	height: 9px;
 	vertical-align: middle;
 	margin-right: 6px;
@@ -70,7 +70,7 @@ html body {
 .nav {
 	position: relative;
 	/*为了absolute的元素能够以此定位*/
-	width: 1205px;
+	width:100%;
 	height: 90px;
 	margin: 0 auto;
 	background: #fff;
@@ -90,7 +90,7 @@ html body {
 	height: 19px;
 	margin-right: 5px;
 	vertical-align: middle;
-	background: url(./img/icon-1.png) no-repeat 0 -24px;
+	background: url(./img/icon-1.png) no-repeat -76px -72px;
 }
 
 .nav .nav-logo-left h2 {
@@ -178,6 +178,7 @@ html body {
 
 .slider {
 	margin: 0 auto;
+	width:100%;
 }
 
 #slider {
@@ -194,7 +195,7 @@ html body {
 #buttons {
 	position: absolute;
 	height: 20px;
-	width: 60px;
+	width: 5em;
 	left: 50%;
 	margin-left: -30px;
 	bottom: 20px;
@@ -204,7 +205,7 @@ html body {
 #buttons span {
 	cursor: pointer;
 	float: left;
-	width: 10px;
+	width: 0.6em;
 	height: 10px;
 	border-radius: 50%;
 	background-color: #fff;
@@ -220,7 +221,7 @@ html body {
 
 .intro {
 	position: relative;
-	width: 1205px;
+	width: 100%;
 	margin: 57px auto;
 }
 
@@ -243,15 +244,15 @@ html body {
 }
 
 .intro .icon1 {
-	background: url('./img/icon-1.png') no-repeat 0 -136px;
+	background: url('./img/icon-1.png') no-repeat -76px -180px;
 }
 
 .intro .icon2 {
-	background: url('./img/icon-1.png') no-repeat -83px -136px;
+	background: url('./img/icon-1.png') no-repeat -159px -180px;
 }
 
 .intro .icon3 {
-	background: url('./img/icon-1.png') no-repeat -166px -136px;
+	background: url('./img/icon-1.png') no-repeat -242px -180px;
 }
 
 .intro .n-intro div {
@@ -284,7 +285,7 @@ html body {
 /*<!--3个图片-->*/
 
 .office {
-	width: 1205px;
+	width: 100%;
 	height: 220px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -306,9 +307,10 @@ html body {
 /*<!--页脚-->*/
 
 .footer {
-	width: 100%;
+	width:100%;
 	height: 262px;
 	background: #2c3339;
+	margin:4px auto;
 }
 
 .footer .n-footer {
